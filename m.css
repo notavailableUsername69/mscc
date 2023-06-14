@@ -1,0 +1,18 @@
+/* Add your CSS styles here */
+body {
+  text-align: center;
+  background-color: #bc6a18;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #5C1D6B;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+h1{
+  color: #ffe75f;
+}

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Player</title>
+    <link rel="stylesheet" type="text/css" href="m.css">
+</head>
+<body>
+    <h1>Music Player</h1>
+    <input type="file" id="file-input" accept="audio/*" style="display: none;">
+    <button class="button" onclick="openFileChooser()">Choose Music</button>
+    <div id="audio-container">
+        <audio id="audio-player" controls></audio>
+    </div>
+
+    <script src="m.js"></script>
+</body>
+</html>
